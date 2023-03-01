@@ -18,12 +18,5 @@ pipeline {
             }
         }
     }
-  post
- { 
-always 
-{ 
-emailext body: 'ajaypipeline', subject: 'apnapipeline', to: 'saklechashreyans1999@gmail.com' 
-} 
-}
 } 
 
